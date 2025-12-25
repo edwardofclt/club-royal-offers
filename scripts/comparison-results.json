@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "user1TotalOffers": 12,
+    "user2TotalOffers": 7,
+    "commonOffers": 0,
+    "user1OnlyOffers": 12,
+    "user2OnlyOffers": 7,
+    "user1TotalSailings": 2,
+    "user2TotalSailings": 1,
+    "matchingItineraries": 1,
+    "user1OnlySailings": 1,
+    "user2OnlySailings": 0
+  },
+  "user1": {
+    "userInfo": {
+      "consumerId": "253942914",
+      "crownAndAnchorId": "394032332",
+      "accountId": "G6060667"
+    },
+    "offerCodes": [
+      "2510C10",
+      "25EMV602",
+      "25DEC103",
+      "25LBD103",
+      "25BAF1304",
+      "25MIX203",
+      "25LVA402",
+      "25SER605",
+      "25VTY304",
+      "25VAR1004",
+      "25RCL1104",
+      "25BFM104"
+    ],
+    "uniqueOfferCodes": [
+      "2510C10",
+      "25EMV602",
+      "25DEC103",
+      "25LBD103",
+      "25BAF1304",
+      "25MIX203",
+      "25LVA402",
+      "25SER605",
+      "25VTY304",
+      "25VAR1004",
+      "25RCL1104",
+      "25BFM104"
+    ]
+  },
+  "user2": {
+    "userInfo": {
+      "consumerId": "184539129",
+      "crownAndAnchorId": "394061849",
+      "accountId": "904fc54d-dc65-4a26-87a6-171d5139a712"
+    },
+    "offerCodes": [
+      "2510C04",
+      "25BAF1305",
+      "25SER606",
+      "25VTY305",
+      "25VAR1005",
+      "25RCL1105",
+      "25BFM105"
+    ],
+    "uniqueOfferCodes": [
+      "2510C04",
+      "25BAF1305",
+      "25SER606",
+      "25VTY305",
+      "25VAR1005",
+      "25RCL1105",
+      "25BFM105"
+    ]
+  },
+  "common": {
+    "offerCodes": []
+  },
+  "itineraries": {
+    "matching": [
+      {
+        "shipName": "Wonder Of The Seas",
+        "sailDate": "2025-12-26",
+        "departurePort": "Miami",
+        "itinerary": "Bahamas & Perfect Day Cruise",
+        "nights": 3,
+        "user1Offers": [
+          "25DEC103"
+        ],
+        "user2Offers": [
+          "2510C04"
+        ],
+        "user1OfferNames": [
+          "December Deal In "
+        ],
+        "user2OfferNames": [
+          "2025 October Instant Rewards"
+        ]
+      }
+    ],
+    "user1Only": [
+      {
+        "shipName": "Utopia Of The Seas",
+        "sailDate": "2025-12-26",
+        "departurePort": "Orlando (Port Canaveral)",
+        "itinerary": "Bahamas & Perfect Day Cruise",
+        "nights": 3,
+        "offerCode": "25LVA402",
+        "offerName": "Stacked Sailings"
+      }
+    ],
+    "user2Only": []
+  },
+  "filters": {
+    "ships": [
+      "allure",
+      "oasis",
+      "star",
+      "wonder",
+      "utopia",
+      "icon"
+    ],
+    "startDate": "2025-12-25",
+    "endDate": "2025-12-27"
+  }
+}
