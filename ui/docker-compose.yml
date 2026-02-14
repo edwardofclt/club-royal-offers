@@ -1,0 +1,15 @@
+services:
+  plex:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - caddy
+    restart: unless-stopped
+    labels:
+      caddy: cruises.${DOMAIN}
+      caddy.reverse_proxy: "{{upstreams 3000}}"
+
+networks:
+  caddy:
+    external: true
